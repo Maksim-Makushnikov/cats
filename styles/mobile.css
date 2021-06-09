@@ -251,3 +251,7 @@ header nav ul li:nth-child(4){
 .feedbacks h3{
     margin-top: 70px;
 }
+.rooms .button-reserve2 img{
+    width:36px;
+    height:36px;
+}
