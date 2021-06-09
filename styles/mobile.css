@@ -1,0 +1,253 @@
+header nav{
+    background: #FAC663 url(../images/logo.png) no-repeat 15px 12px;
+}
+header .logo{
+    padding-left:15px;
+}
+header nav ul{
+    display:none;
+    position: absolute;
+    right: -100%;
+    top:0;
+    background: #FAC663 url(../images/logo.png) no-repeat 15px 12px;
+    width: 100%;
+    padding: 100px 15px;
+    z-index:3;
+}
+header nav ul li{
+    font-family: Rubik, Arial, sans-serif;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left:0px;
+}
+.mobile, .tel, nav li .social{
+	display:block;
+}
+header nav ul li:nth-child(4){
+    display:none;
+}
+.tel{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;  
+    margin-top: 40px;
+}
+.hidden-menu-ticker{
+    display:none
+}
+.btn-menu{
+    display: block;
+    width: 22px;
+    height: 14px;
+    position: absolute;
+    top:24px;
+    right:15px;
+    cursor:pointer;
+    z-index: 5;
+}
+.btn-menu span{
+    display:block;
+    height: 2px;
+    background:#1a212f;
+    margin: 5px 0 0;
+    position: relative;
+}
+.hidden-menu-ticker:checked ~ ul{
+    right: 0;
+    display:block;
+}
+.hidden-menu-ticker:checked ~ .btn-menu .first{
+    transform: rotate(45deg);
+    top:7px;
+}
+.hidden-menu-ticker:checked ~ .btn-menu .third{
+    transform: rotate(-45deg);
+    top:-7px;
+}
+.hidden-menu-ticker:checked ~ .btn-menu .second{
+    opacity: 0;
+}
+.right{
+    right:-100%;
+}
+.banner{
+    padding: 50px 0;
+    text-align: center;
+    height:100vh;
+    background: #fdaa52 url(../images/bannermb.png) no-repeat left bottom;
+    background-size:cover;
+}
+.banner p{
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 12px;
+    padding:0;
+}
+.banner h1{
+    padding:0;
+    margin:0;
+    font-family: Rubik, Ariel, sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 52px;
+    margin-bottom:22px;
+    
+}
+.banner h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin:0;
+    padding:0;
+}
+.button-reserve1{
+    margin:40px auto;
+}
+.why{
+    padding-top: 70px;
+    background-position: right -50px top 50px;
+    background-size:45%;
+}
+.why_items{
+    margin:0;
+    padding:0;
+    width:100%;
+    display:block;
+}
+.why .item{
+    margin-bottom:30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.why .item h4{
+    font-weight: 500;
+    font-size: 18px;
+}
+.why .item p{
+    font-size: 15px;
+}
+.rooms{
+    padding-top: 70px;
+    background-position: left top 115px;
+    background-size:65%;
+}
+.rooms figcaption{
+    position: static;
+    border-radius:0 0 8px 8px;
+    padding-top:25px;
+    padding-left:25px;
+    width:100%;
+}
+.rooms figure{
+    height: auto;
+    padding: 0 15px;
+}
+.rooms figure img{
+    border-radius: 8px 8px 0 0;
+}
+.owl-carousel .owl-item img{
+    width: 100%;;
+}
+.rooms figcaption h4{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.rooms figcaption li{
+    font-size:15px;
+    margin-bottom:17px;
+    margin-left:7px;
+}
+.button-reserve2{
+    margin-top:25px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+.owl-theme .owl-dots{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.name_screen{
+    margin-top: 0;
+}
+.feedbacks{
+    padding-left:15px;
+    padding-right: 15px;
+}
+.feedback{
+    width:100%;
+}
+.info{
+    display: block;
+}
+.contacts{
+    width:100%;
+    padding:40px 15px;
+}
+.contacts h3{
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom:40px;
+}
+.contacts h5{
+    font-size: 15px;
+    line-height: 18px; 
+    margin-top:30px;
+}
+.contacts p{
+    font-size: 15px;
+    line-height: 18px;
+}
+.map{
+    width:100%;
+    height: 300px;
+}
+.footer_nav{
+    display:block
+}
+.footer_nav .logo{
+    padding:0;
+    margin:30px 0 25px 15px;
+}
+.footer_nav nav{
+    margin:0;
+}
+.footer_nav nav ul{
+    flex-wrap: wrap;
+    margin-top:25px;
+    margin-left:15px;
+    padding:0;
+    padding-bottom: 30px;
+}
+.footer_nav nav ul li{
+    flex-basis: 50%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin:20px 0 0;
+}
+.footer_nav li:first-child{
+    order:1;
+}
+.footer_nav li:nth-child(2){
+    order:3;
+}
+.footer_nav li:nth-child(3){
+    order:2;
+}
+.footer_nav li:nth-child(4){
+    order:4;
+}
+.copyright{
+    display:block;
+    padding:15px;
+}
+.copyright span{
+    display:block;
+    margin-bottom: 20px;
+}
+.feedbacks h3{
+    margin-top: 70px;
+}
